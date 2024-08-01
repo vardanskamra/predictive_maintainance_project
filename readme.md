@@ -16,18 +16,22 @@ This project aims to predict the Remaining Useful Life (RUL) of engines using a 
 
 1. **Clone the repository**:
     ```bash
-    git clone https://github.com/vardanskamra/predictive_maintainance_project.git
+    git clone https://github.com/vardanskamra/predictive_maintenance_project
     cd predictive_maintenance_project
     ```
 
 2. **Create a virtual environment**:
     ```bash
     python3 -m venv venv
+    ```
 
     On macOS/Linux:
-    source venv/bin/activate 
+    ```bash
+    source venv/bin/activate
+    ``` 
 
     On Windows:
+    ```bash
     .venv\Scripts\activate
     ```
 
@@ -96,8 +100,11 @@ predictive_maintainace_project/
 │   ├──test_preprocessing.py
 │   └── test_preprocessing.csv
 │ 
-├── main.py
+├── .gitignore
+├── setup.py
+├── eda_preprocessing.ipynb
 ├── requirements.txt
+├── LICENSE.txt
 └── README.md
 
 ```
