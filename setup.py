@@ -10,12 +10,6 @@ setup(
         'scikit-learn',
         'tensorflow',
         'matplotlib',
-        'seaborn',
-        'pickle'
+        'seaborn'
     ],
-    entry_points={
-        'console_scripts': [
-            
-        ],
-    },
 )
