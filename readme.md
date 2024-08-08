@@ -94,10 +94,10 @@ predictive_maintainace_project/
 │ 
 ├── logs/
 │   ├── inference.log
-│   └── inference.log
+│   └── model_building.log
 ├── tests/
 │   ├── __init__.py
-│   ├──test_preprocessing.py
+│   ├── test_preprocessing.py
 │   └── test_preprocessing.csv
 │ 
 ├── .gitignore
