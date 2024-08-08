@@ -22,7 +22,7 @@ This project aims to predict the Remaining Useful Life (RUL) of engines using a 
 
 2. **Create a virtual environment**:
     ```bash
-    python3 -m venv venv
+    python -m venv venv
     ```
 
     On macOS/Linux:
@@ -32,7 +32,7 @@ This project aims to predict the Remaining Useful Life (RUL) of engines using a 
 
     On Windows:
     ```bash
-    .venv\Scripts\activate
+    venv\Scripts\activate
     ```
 
 3. **Install dependencies**:
